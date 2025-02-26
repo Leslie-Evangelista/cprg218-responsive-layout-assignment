@@ -29,3 +29,52 @@ body {
     font-size: 30px;
     margin: 0;
 }
+
+/* Main Layout and Responsive Device for 1000px wide or greater */  
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    padding: 20px;
+}
+  
+/* Main Content */
+main {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+  
+/* Main Figure and Image */
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+  
+figure img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #d9043d;
+}
+  
+/* Sidebar */
+aside {
+    background-color: #97bf04;
+    padding: 20px;
+    color: black;
+    flex: 1;
+}
+  
+/* Footer */
+footer {
+    background-color: #d9043d;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}
