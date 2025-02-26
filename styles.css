@@ -7,6 +7,25 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
-  
-  
+    
+/* Header */
+.header-container {
+    background-color: #120323;
+    color: #97bf04;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
 
+.header-container img {
+    max-width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.header-container h1 {
+    font-size: 30px;
+    margin: 0;
+}
